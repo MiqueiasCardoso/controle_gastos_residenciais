@@ -22,10 +22,9 @@ namespace ControleGastos.Api.Repositories
         {
             return await _connection.GetAsync<Pessoa>(id);
         }
-        public async Task<int> Insert(Pessoa pessoa)
+        public async Task Insert(Pessoa pessoa)
         {
-            var id = await _connection.InsertAsync(pessoa);
-            return (int)id;
+            await _connection.InsertAsync(pessoa);
         }
         public async Task<bool> Update(Pessoa pessoa)
         {
