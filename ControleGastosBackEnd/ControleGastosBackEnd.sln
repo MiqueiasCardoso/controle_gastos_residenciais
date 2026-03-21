@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleGastos.Api", "ControleGastos.Api\ControleGastos.Api.csproj", "{0F82D444-05C0-45DA-89B6-DDEA1E7F9A8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleGastos.Core", "ControleGastos.Core\ControleGastos.Core.csproj", "{3A8A7F3D-4AB6-40BA-BC98-E952594DB179}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F82D444-05C0-45DA-89B6-DDEA1E7F9A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F82D444-05C0-45DA-89B6-DDEA1E7F9A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F82D444-05C0-45DA-89B6-DDEA1E7F9A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F82D444-05C0-45DA-89B6-DDEA1E7F9A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A8A7F3D-4AB6-40BA-BC98-E952594DB179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8A7F3D-4AB6-40BA-BC98-E952594DB179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8A7F3D-4AB6-40BA-BC98-E952594DB179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8A7F3D-4AB6-40BA-BC98-E952594DB179}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BAA8AFF-7F0E-4694-A264-80BD5EACC6EA}
+	EndGlobalSection
+EndGlobal
