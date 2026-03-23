@@ -27,7 +27,6 @@ Contém:
 - React + TypeScript
 - Estrutura organizada por páginas (Pages), serviços (Services) e models
 - Comunicação com a API via `fetch`
-
 ---
 
 ## ⚙️ Tecnologias utilizadas
@@ -108,5 +107,6 @@ Regras aplicadas:
 npm install
 npm run dev
 
+Setar o endereço do servidor da API: ControleGastosFront/src/Configs/Config.ts
 
 
