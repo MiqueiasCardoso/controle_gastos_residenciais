@@ -114,11 +114,12 @@ function AddTransacao() {
             </option>
           ))}
         </select>
-
+        
         {/* Categoria */}
         <select value={categoriaId} onChange={(e) => setCategoriaId(Number(e.target.value))}>
           <option value={0}>Selecione a categoria</option>
-          {categoriasFiltradas.map(c => (
+
+          {categorias.map((c) => (
             <option key={c.id} value={c.id}>
               {c.descricao}
             </option>
